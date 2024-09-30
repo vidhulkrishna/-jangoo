@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgba(26, 131, 108, 0.573);">
+    <form method="post">
+     {% csrf_token %}
+     <table>
+        <tr>
+            <th>Name</th>
+            <td><input type="text" name="n1"></td>
+        </tr>
+        <tr>
+            <th>Age</th>
+            <td><input type="number" name="a1"></td>
+        </tr>
+        <tr>
+            <th>Dob</th>
+            <td><input type="date" name="d1"></td>
+        </tr>
+        <tr>
+            <th>Address</th>
+            <td><input type="text" name="ad1"></td>
+        </tr>
+        <tr>
+            <th>Image</th>
+            <td><input type="file" name="f1"></td>
+        </tr>
+        
+
+     </table>
+    </form>
+</body>
+</html>
